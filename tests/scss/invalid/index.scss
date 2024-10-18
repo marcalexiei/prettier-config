@@ -1,0 +1,16 @@
+.alert {
+  color: var(--text-color);
+  border-left-width: 4px;
+  background-color: var(--alert-bg-color);
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.btn-toolbar-spaced {
+  margin-left: 0;
+
+
+
+}

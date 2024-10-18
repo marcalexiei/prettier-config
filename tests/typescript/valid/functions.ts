@@ -20,31 +20,6 @@ export function windowWidth(): number {
   );
 }
 
-export function windowHeight(): number {
-  return (
-    window.innerHeight ||
-    document.documentElement.clientHeight ||
-    document.body.clientHeight
-  );
-}
-
-/**
- * Will the event target bubble the event up to destination?
- * Use this method to check if the target of an event will include `destination` while bubbling up.
- */
-export function targetBubblesToDestination(
-  eventTarget: EventTarget,
-  destination: HTMLElement,
-): boolean {
-  let el = eventTarget as HTMLElement;
-
-  for (; el && el.nodeType === 1; el = el.parentNode as HTMLElement) {
-    if (el === destination) return true;
-  }
-
-  return false;
-}
-
 export function forceFocusElement(targetElement: HTMLElement): void {
   if (targetElement) {
     const hasTabIndex = !!targetElement.getAttribute('tabindex');

@@ -1,8 +1,15 @@
 {
   "include": ["index.spec.js"],
   "compilerOptions": {
+    "moduleResolution": "Node",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "module": "ESNext",
+    "target": "ESNext",
     "noEmit": true,
     "esModuleInterop": true,
-    "allowJs": true
+    "allowJs": true,
+    "skipLibCheck": true
   }
 }

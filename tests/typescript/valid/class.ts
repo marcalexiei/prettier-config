@@ -1,4 +1,4 @@
-export class Stufo {
+export class Things {
   quanto: 'tanto' | 'tantissimo' | 'infinito';
 
   // I'm onanista inside
@@ -8,7 +8,7 @@ export class Stufo {
     this.quanto = quanto;
   }
 
-  isPassiveAggressive(): boolean {
+  isFun(): boolean {
     return !this.onanista;
   }
 }
