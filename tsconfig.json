@@ -1,0 +1,8 @@
+{
+  "include": ["index.spec.js"],
+  "compilerOptions": {
+    "noEmit": true,
+    "esModuleInterop": true,
+    "allowJs": true
+  }
+}
