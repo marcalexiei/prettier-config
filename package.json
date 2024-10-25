@@ -2,6 +2,9 @@
   "name": "@marcalexiei/prettier-config",
   "version": "0.0.1",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "engines": {
     "node": ">= 20"
   },
