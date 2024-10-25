@@ -25,12 +25,15 @@
     "format": "prettier . --check",
     "format:fix": "prettier . --write",
     "test": "node --test ./*.spec.js",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "release": "changeset publish"
   },
   "peerDependencies": {
     "prettier": "^2.8.0 || ^3.0.0"
   },
   "devDependencies": {
+    "@changesets/changelog-github": "0.5.0",
+    "@changesets/cli": "2.27.9",
     "@types/node": "20.16.12",
     "prettier": "3.3.3",
     "typescript": "5.6.3"
