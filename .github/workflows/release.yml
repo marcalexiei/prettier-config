@@ -11,6 +11,7 @@ concurrency: ${{ github.workflow }}-${{ github.ref }}
 permissions:
   contents: write
   pull-requests: write
+  actions: write # added to trigger CI actions on changeset PR
   id-token: write # added for provenance
 
 env:
