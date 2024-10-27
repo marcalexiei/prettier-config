@@ -21,18 +21,21 @@
   "author": "Marco Pasqualetti @marcalexiei",
   "license": "MIT",
   "files": [
-    "index.json"
+    "dist"
   ],
   "exports": {
-    "default": "./index.json"
+    "types": "./dist/index.d.ts",
+    "default": "./dist/index.js"
   },
   "packageManager": "pnpm@9.12.2+sha512.22721b3a11f81661ae1ec68ce1a7b879425a1ca5b991c975b074ac220b187ce56c708fe5db69f4c962c989452eee76c82877f4ee80f474cebd61ee13461b6228",
+  "prettier": "./index.js",
   "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
     "format": "prettier . --check",
     "format:fix": "prettier . --write",
     "test": "node --test ./*.spec.js",
-    "typecheck": "tsc",
-    "release": "changeset publish"
+    "release": "pnpm run build && changeset publish"
   },
   "peerDependencies": {
     "prettier": "^2.8.0 || ^3.0.0"
@@ -43,6 +46,5 @@
     "@types/node": "20.16.12",
     "prettier": "3.3.3",
     "typescript": "5.6.3"
-  },
-  "prettier": "./index.json"
+  }
 }

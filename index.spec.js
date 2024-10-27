@@ -6,10 +6,7 @@ import { describe, it } from 'node:test';
 
 import * as prettier from 'prettier';
 
-/** @type {import('prettier').Config} */
-const config = JSON.parse(
-  await fs.readFile('./index.json', { encoding: 'utf-8' }),
-);
+import config from './index.js';
 
 /**
  * @param {string} filePath
