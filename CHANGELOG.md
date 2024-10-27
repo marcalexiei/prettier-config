@@ -1,5 +1,11 @@
 # @marcalexiei/prettier-config
 
+## 1.0.4
+
+### Patch Changes
+
+- [`f5f8790`](https://github.com/marcalexiei/prettier-config/commit/f5f87903520cd00e79e612e6b562fc2b8ab0455d) Thanks [@marcalexiei](https://github.com/marcalexiei)! - fix: remove test files from `dist`
+
 ## 1.0.3
 
 ### Patch Changes
