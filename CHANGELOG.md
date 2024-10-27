@@ -1,5 +1,11 @@
 # @marcalexiei/prettier-config
 
+## 1.0.3
+
+### Patch Changes
+
+- [#10](https://github.com/marcalexiei/prettier-config/pull/10) [`d0e94da`](https://github.com/marcalexiei/prettier-config/commit/d0e94daad73efa96c25f42d22445248b99ee511c) Thanks [@marcalexiei](https://github.com/marcalexiei)! - fix: export js files to include config programmatically
+
 ## 1.0.2
 
 ### Patch Changes
