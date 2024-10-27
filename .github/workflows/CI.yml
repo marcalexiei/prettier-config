@@ -44,7 +44,7 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        script: ['typecheck', 'format']
+        script: ['build', 'typecheck', 'format']
 
     steps:
       - name: Checkout
