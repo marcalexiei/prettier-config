@@ -1,5 +1,3 @@
-// @ts-check
-
 /** @type {import("prettier").Config} */
 const CONFIG = {
   printWidth: 80,
