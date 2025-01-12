@@ -1,9 +1,0 @@
-{
-  "extends": "./tsconfig.json",
-  "include": ["./index.js"],
-  "compilerOptions": {
-    "outDir": "dist",
-    "declaration": true,
-    "removeComments": true
-  }
-}

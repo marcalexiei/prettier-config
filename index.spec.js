@@ -1,4 +1,3 @@
-// @ts-check
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import assert from 'node:assert';
@@ -15,10 +14,9 @@ import config from './index.js';
 async function prettierCheck(filePath) {
   const source = await fs.readFile(filePath);
 
-  const { inferredParser: parser } = await prettier.getFileInfo(
-    filePath,
-    config,
-  );
+  const { inferredParser: parser } = await prettier.getFileInfo(filePath, {
+    resolveConfig: false,
+  });
 
   return prettier.check(source.toString(), {
     ...config,
