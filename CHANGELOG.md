@@ -1,5 +1,11 @@
 # @marcalexiei/prettier-config
 
+## 1.1.1
+
+### Patch Changes
+
+- [#20](https://github.com/marcalexiei/prettier-config/pull/20) [`22b4fad`](https://github.com/marcalexiei/prettier-config/commit/22b4fad3a36a3755789fd0f033dee41690e09d96) Thanks [@marcalexiei](https://github.com/marcalexiei)! - fix(types): config has `any` type
+
 ## 1.1.0
 
 ### Minor Changes
