@@ -1,5 +1,11 @@
 # @marcalexiei/prettier-config
 
+## 1.1.0
+
+### Minor Changes
+
+- [#18](https://github.com/marcalexiei/prettier-config/pull/18) [`5703ca9`](https://github.com/marcalexiei/prettier-config/commit/5703ca98a406b25094f01ed40d5f1d59eefe666e) Thanks [@marcalexiei](https://github.com/marcalexiei)! - feat: add cjs export
+
 ## 1.0.4
 
 ### Patch Changes
