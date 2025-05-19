@@ -1,6 +1,5 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import assert from 'node:assert';
 import { describe, it } from 'node:test';
 
 import * as prettier from 'prettier';
@@ -36,9 +35,9 @@ for (const language of allLanguages) {
       const validFiles = dirContent.filter((it) => it.isFile());
 
       for (const { name, parentPath } of validFiles) {
-        it(`should pass on ${name}`, async () => {
+        it(`should pass on ${name}`, async (t) => {
           const result = await prettierCheck(path.join(parentPath, name));
-          assert.equal(result, true, 'file is formatted correctly');
+          t.assert.equal(result, true, 'file is formatted correctly');
         });
       }
     });
@@ -51,9 +50,9 @@ for (const language of allLanguages) {
       const validFiles = dirContent.filter((it) => it.isFile());
 
       for (const { name, parentPath } of validFiles) {
-        it(`should NOT pass on ${name}`, async () => {
+        it(`should NOT pass on ${name}`, async (t) => {
           const result = await prettierCheck(path.join(parentPath, name));
-          assert.equal(result, false, 'file is not formatted correctly');
+          t.assert.equal(result, false, 'file is not formatted correctly');
         });
       }
     });
