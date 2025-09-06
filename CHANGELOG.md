@@ -1,5 +1,11 @@
 # @marcalexiei/prettier-config
 
+## 1.1.2
+
+### Patch Changes
+
+- [`8034320`](https://github.com/marcalexiei/prettier-config/commit/8034320340e3ab42e9103dbd88e6af57ef0ef49f) Thanks [@marcalexiei](https://github.com/marcalexiei)! - chore: use changeset helper for release
+
 ## 1.1.1
 
 ### Patch Changes
