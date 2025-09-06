@@ -1,5 +1,11 @@
 # @marcalexiei/prettier-config
 
+## 1.1.3
+
+### Patch Changes
+
+- [`7c4fd49`](https://github.com/marcalexiei/prettier-config/commit/7c4fd49529ec96fb0cc7fee55559e3383c7967df) Thanks [@marcalexiei](https://github.com/marcalexiei)! - docs(README): update badge style
+
 ## 1.1.2
 
 ### Patch Changes
