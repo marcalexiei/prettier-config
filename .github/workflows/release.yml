@@ -56,6 +56,7 @@ jobs:
           commit: 'chore: release'
           title: 'chore: release'
           publish: 'pnpm release'
+          setupGitUser: false
         env:
           GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

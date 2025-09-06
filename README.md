@@ -1,9 +1,18 @@
 # `@marcalexiei/prettier-config`
 
-[![CI](https://github.com/marcalexiei/prettier-config/actions/workflows/CI.yml/badge.svg)](https://github.com/marcalexiei/prettier-config/actions/workflows/CI.yml)
-[![Code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io)
-[![npm version](https://img.shields.io/npm/v/@marcalexiei/prettier-config.svg?style=flat-square)](https://www.npmjs.com/package/@marcalexiei/prettier-config)
-[![issues](https://img.shields.io/github/issues/marcalexiei/prettier-config.svg)](https://github.com/marcalexiei/prettier-config/issues)
+[![CI][CIBadge]][CIURL]
+[![Code style: prettier][CodeStyleBadge]][CodeStyleURL]
+[![npm version][npmVersionBadge]][npmVersionURL]
+[![issues][issuesBadge]][issuesURL]
+
+[CIBadge]: https://img.shields.io/github/actions/workflow/status/marcalexiei/prettier-config/CI.yml?style=for-the-badge&logo=github&event=push&label=CI
+[CIURL]: https://github.com/marcalexiei/prettier-config/actions/workflows/CI.yml/badge.svg
+[CodeStyleBadge]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=for-the-badge&logo=prettier
+[CodeStyleURL]: https://prettier.io
+[npmVersionBadge]: https://img.shields.io/npm/v/@marcalexiei/prettier-config.svg?style=for-the-badge&logo=npm
+[npmVersionURL]: https://www.npmjs.com/package/@marcalexiei/prettier-config
+[issuesBadge]: https://img.shields.io/github/issues/marcalexiei/prettier-config.svg?style=for-the-badge
+[issuesURL]: https://github.com/marcalexiei/prettier-config/issues
 
 A custom prettier config
 
