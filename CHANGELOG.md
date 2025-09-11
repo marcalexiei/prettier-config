@@ -1,5 +1,11 @@
 # @marcalexiei/prettier-config
 
+## 1.1.4
+
+### Patch Changes
+
+- [`b425ed9`](https://github.com/marcalexiei/prettier-config/commit/b425ed967da582e4747f8a5e536ed346d0560968) Thanks [@marcalexiei](https://github.com/marcalexiei)! - chore: test trusted publishing
+
 ## 1.1.3
 
 ### Patch Changes
