@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 
 import { defineConfig } from 'rolldown';
+import { dts } from 'rolldown-plugin-dts';
 
 export default defineConfig([
   {
@@ -10,10 +11,6 @@ export default defineConfig([
         entryFileNames: '[name].js',
         format: 'esm',
       },
-      {
-        entryFileNames: '[name].cjs',
-        format: 'cjs',
-      },
     ],
     plugins: [
       {
@@ -22,6 +19,14 @@ export default defineConfig([
           await fs.rm('./dist', { recursive: true, force: true });
         },
       },
+      dts(),
     ],
+  },
+  {
+    input: 'index.js',
+    output: {
+      entryFileNames: '[name].cjs',
+      format: 'cjs',
+    },
   },
 ]);
