@@ -41,12 +41,12 @@
     "prettier": "^2.8.0 || ^3.0.0"
   },
   "devDependencies": {
-    "@changesets/changelog-github": "0.5.1",
-    "@changesets/cli": "2.29.7",
-    "@types/node": "24.7.2",
-    "prettier": "3.6.2",
-    "rolldown": "1.0.0-beta.43",
-    "rolldown-plugin-dts": "0.16.11",
+    "@changesets/changelog-github": "0.5.2",
+    "@changesets/cli": "2.29.8",
+    "@types/node": "24.10.1",
+    "prettier": "3.7.3",
+    "rolldown": "1.0.0-beta.52",
+    "rolldown-plugin-dts": "0.18.1",
     "typescript": "5.9.3"
   }
 }
