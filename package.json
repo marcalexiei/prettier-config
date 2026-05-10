@@ -28,7 +28,7 @@
     "require": "./dist/index.cjs",
     "default": "./dist/index.js"
   },
-  "packageManager": "pnpm@10.17.1+sha512.17c560fca4867ae9473a3899ad84a88334914f379be46d455cbf92e5cf4b39d34985d452d2583baf19967fa76cb5c17bc9e245529d0b98745721aa7200ecaf7a",
+  "packageManager": "pnpm@11.0.9+sha512.34ce82e6780233cf9cad8685029a8f81d2e06196c5a9bad98879f7424940c6817c4e4524fb7d38b8553ceed48b9758b8ebaf1abd3600c232c4c8cf7366086f38",
   "scripts": {
     "build": "rolldown -c",
     "typecheck": "tsc --noEmit",
@@ -41,12 +41,12 @@
     "prettier": "^2.8.0 || ^3.0.0"
   },
   "devDependencies": {
-    "@changesets/changelog-github": "0.5.1",
-    "@changesets/cli": "2.29.7",
+    "@changesets/changelog-github": "0.7.0",
+    "@changesets/cli": "2.31.0",
     "@types/node": "24.7.2",
-    "prettier": "3.6.2",
-    "rolldown": "1.0.0-beta.43",
-    "rolldown-plugin-dts": "0.16.11",
-    "typescript": "5.9.3"
+    "prettier": "3.8.3",
+    "rolldown": "1.0.0",
+    "rolldown-plugin-dts": "0.25.0",
+    "typescript": "6.0.3"
   }
 }
