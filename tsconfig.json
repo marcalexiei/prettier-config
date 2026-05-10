@@ -7,9 +7,10 @@
     "noUnusedParameters": true,
 
     // Modules
-    "moduleResolution": "Node",
+    "moduleResolution": "bundler",
     "module": "ESNext",
     "target": "ESNext",
+    "types": ["node"],
 
     // Emit
     "noEmit": true,

@@ -6,6 +6,7 @@ import { dts } from 'rolldown-plugin-dts';
 export default defineConfig([
   {
     input: 'index.js',
+    external: ['prettier'],
     output: [
       {
         entryFileNames: '[name].js',
