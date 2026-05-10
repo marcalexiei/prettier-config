@@ -1,5 +1,15 @@
 # @marcalexiei/prettier-config
 
+## 2.0.0
+
+### Major Changes
+
+- [#46](https://github.com/marcalexiei/prettier-config/pull/46) [`04bc34b`](https://github.com/marcalexiei/prettier-config/commit/04bc34b122f8b48ddb6ffe59cb5623d64a9a3f89) Thanks [@marcalexiei](https://github.com/marcalexiei)! - feat!: increase `printWidth` from 80 to 100
+
+### Patch Changes
+
+- [#39](https://github.com/marcalexiei/prettier-config/pull/39) [`ebc95e2`](https://github.com/marcalexiei/prettier-config/commit/ebc95e281d46ddc331a22f9ce9518380f4e0b3f5) Thanks [@marcalexiei](https://github.com/marcalexiei)! - chore: add LICENSE
+
 ## 1.1.4
 
 ### Patch Changes
