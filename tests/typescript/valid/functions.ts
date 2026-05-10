@@ -13,20 +13,14 @@ export const DefaultFocusableElements = [
   .join(',');
 
 export function windowWidth(): number {
-  return (
-    window.innerWidth ||
-    document.documentElement.clientWidth ||
-    document.body.clientWidth
-  );
+  return window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 }
 
 export function forceFocusElement(targetElement: HTMLElement): void {
   if (targetElement) {
     const hasTabIndex = !!targetElement.getAttribute('tabindex');
 
-    const isDefaultFocusableElement = targetElement.matches(
-      DefaultFocusableElements,
-    );
+    const isDefaultFocusableElement = targetElement.matches(DefaultFocusableElements);
 
     if (!hasTabIndex && !isDefaultFocusableElement) {
       targetElement.setAttribute('tabindex', '-1');
