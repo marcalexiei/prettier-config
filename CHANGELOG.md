@@ -1,5 +1,11 @@
 # @marcalexiei/prettier-config
 
+## 2.0.1
+
+### Patch Changes
+
+- [#54](https://github.com/marcalexiei/prettier-config/pull/54) [`a6d0745`](https://github.com/marcalexiei/prettier-config/commit/a6d0745f32db4eb7b79bb89128d4b8cbc5123238) Thanks [@marcalexiei](https://github.com/marcalexiei)! - Test the release flow, not for release
+
 ## 2.0.0
 
 ### Major Changes
